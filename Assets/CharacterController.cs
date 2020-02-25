@@ -16,8 +16,7 @@ public class CharacteController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+   
 
         void FixedUpdate()
         {
@@ -26,5 +25,5 @@ public class CharacteController : MonoBehaviour
             rb2d.AddForce(Vector2.right * speed * h);
 
         }
-    }
+    
 }
